@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="canvas">
+        <div class="fridge-unit">
+            <div class="freezer" onclick="openFreezer()">
+                <div class="freezer-door"></div>
+            </div>
+            <div class="fridge" onclick="openFridge()">
+                <div class="fridge-door"></div>
+            </div>
+        </div>
+
+        <div class="pantry" onclick="openPantry()">
+            <div class="shelf">
+                <div class="food"></div>
+                <div class="food2"></div>
+                <div class="food3"></div>
+                <div class="food4"></div>
+                <div class="food5"></div>
+            </div>
+        </div>
+
+        
+
+        <div class="info-box">
+            <!-- pantry -->
+            <div class="info-boxExp">
+                <div class="closebtn" onclick="closebtn()"><i class="fa-regular fa-circle-xmark"></i></div>
+                 <h3 class="item-name">PB Wafer Bars</h3>
+                 <h6 class="expiration-date"><i class="fa-regular fa-clock"></i> 02-26-24</h6>
+            </div>
+
+            <p class="descr">nature valley crispy creamy wafer bars made with real peanut butter</p>
+            <div class="quantity">
+                <div class="quantityBar" style="width:100%">5 bars left</div>
+            </div>
+            <div class="seperator"></div>
+
+
+
+            <div class="info-boxExp">
+                <h3 class="item-name">PB Chocolate Bars</h3>
+                <h6 class="expiration-date"><i class="fa-regular fa-clock"></i> 06-14-24</h6>
+           </div>
+
+           <p class="descr">nature valley peanut butter chocolate wafer bars made with real peanut butter</p>
+           <div class="quantity">
+               <div class="quantityBar" style="width:100%">5 bars left</div>
+           </div>
+           <div class="seperator"></div>
+
+           <div class="info-boxExp">
+            <h3 class="item-name">Keurig Coffee Pods</h3>
+            <h6 class="expiration-date"><i class="fa-regular fa-clock"></i> 10-19-24</h6>
+       </div>
+
+       <p class="descr">dunkin' french vanilla coffee</p>
+       <div class="quantity">
+           <div class="quantityBar" style="width:70%">7 pods left</div>
+       </div>
+       <div class="seperator"></div>
+        </div>
+
+
+        <div class="info-box2">
+            <!-- freezer -->
+            <div class="info-boxExp">
+                <div class="closebtn" onclick="closebtn2()"><i class="fa-regular fa-circle-xmark"></i></div>
+                 <h3 class="item-name">Coffee Cake</h3>
+                 <h6 class="expiration-date" style="color: #84c8e8"><i class="fa-regular fa-clock"></i> FROZEN</h6>
+            </div>
+
+            <p class="descr">walnut maple coffee cake</p>
+            <div class="quantity">
+                <div class="quantityBar" style="width:30%;background:#ed3939;color:#f0e4e4">1 piece left</div>
+            </div>
+            <div class="seperator"></div>
+
+
+            <div class="info-boxExp">
+                <h3 class="item-name">Jr.'s Cheesecake</h3>
+                <h6 class="expiration-date" style="color: #84c8e8"><i class="fa-regular fa-clock"></i> FROZEN</h6>
+           </div>
+
+           <p class="descr">strawberry swirl cheesecake 4 oz.</p>
+           <div class="quantity">
+               <div class="quantityBar" style="width:100%">only 1 left</div>
+           </div>
+           <div class="seperator"></div>
+
+
+           <div class="info-boxExp">
+                <h3 class="item-name">Chocolate</h3>
+                <h6 class="expiration-date" style="color: #84c8e8"><i class="fa-regular fa-clock"></i> FROZEN</h6>
+           </div>
+
+           <p class="descr">assorted chocolates</p>
+           <div class="quantity">
+            <div class="quantityBar" style="width:80%">a lot left</div>
+           </div>
+           <div class="seperator"></div>
+
+
+
+           <div class="info-boxExp">
+            <h3 class="item-name">Ice Cream</h3>
+            <h6 class="expiration-date" style="color: #84c8e8"><i class="fa-regular fa-clock"></i> FROZEN</h6>
+            </div>
+
+            <p class="descr">godiva pecan caramel cluster ice cream and noosa sea salt caramel frozen yogurt</p>
+            <div class="quantity">
+                <div class="quantityBar" style="width:90%">2 pints left</div>
+            </div>
+        <div class="seperator"></div>
+
+        <div class="info-boxExp">
+            <h3 class="item-name">Hash Browns</h3>
+            <h6 class="expiration-date" style="color: #84c8e8"><i class="fa-regular fa-clock"></i> FROZEN</h6>
+            </div>
+
+            <p class="descr">hash browns</p>
+            <div class="quantity">
+                <div class="quantityBar" style="width:60%">1.5 bags left</div>
+            </div>
+        <div class="seperator"></div>
+
+        </div>
+
+
+
+
+        <div class="info-box3">
+            <!-- fridge -->
+            <div class="info-boxExp">
+                <div class="closebtn" onclick="closebtn3()"><i class="fa-regular fa-circle-xmark"></i></div>
+                 <h3 class="item-name">Fruit</h3>
+                 <h6 class="expiration-date" style="color: #ec9563"><i class="fa-regular fa-clock"></i> EAT SOON</h6>
+            </div>
+
+            <p class="descr">small description of product</p>
+            <div class="quantity">
+                <div class="quantityBar" style="width:50%">3 left</div>
+            </div>
+            <div class="seperator"></div>
+
+
+
+
+            <div class="info-boxExp">
+                <h3 class="item-name">Strawberry Milk</h3>
+                <h6 class="expiration-date" style="color: rgb(236, 113, 12)"><i class="fa-regular fa-clock"></i> EXPIRED</h6>
+           </div>
+
+           <p class="descr">promised land strawberry milk</p>
+           <div class="quantity">
+            <div class="quantityBar" style="width:100%">.5 gallon</div>
+           </div>
+           <div class="seperator"></div>
+
+    
+
+
+
+
+        </div>
+
+
+    </div>
+    
+
+<script src="fridge.js"></script>
+</body>
+</html>

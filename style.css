@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(222, 244, 253);
+}
+
+.canvas {
+    background: rgb(222, 244, 253);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fridge-unit {
+    background-color: rgb(63, 63, 63);
+    height: 500px;
+    width: 300px;
+    margin-right: -680px;
+    margin-bottom: -190px;
+    border: .2vmin solid rgb(7, 6, 33);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 1;
+    box-sizing: border-box;
+}
+
+.freezer {
+    background: linear-gradient(45deg, #ededed, #bdbdbd);
+    height: 200px;
+    width: 299px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    box-shadow: 0px 3px 20px 2px rgb(164, 164, 164);
+}
+
+.freezer-door {
+    position: absolute;
+    background: linear-gradient(rgb(60, 59, 59), rgb(40, 39, 39) );
+    height: 150px;
+    width: 16px;
+    margin-top: 30px;
+    margin-left: 18px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.fridge {
+    background: linear-gradient(45deg, #ededed, #bdbdbd);
+    height: 285px;
+    width: 299px;
+    margin-top: 14px;
+    box-shadow: 0px 3px 15px 2px rgb(169, 166, 166);
+}
+
+.fridge-door {
+    position: absolute;
+    background: linear-gradient(rgb(60, 59, 59), rgb(40, 39, 39) );
+    height: 180px;
+    width: 18px;
+    margin-left: 18px;
+    margin-top: 30px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+}
+
+.pantry {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    top: -150px;
+    left: 33px;
+}
+
+
+.shelf {
+    position: absolute;
+    background: linear-gradient(rgb(81, 31, 14), rgb(106, 45, 27), rgb(86, 35, 9));
+    height: 30px;
+    width: 370px;
+    box-shadow: 1px 4px 2px rgb(46, 5, 5);
+}
+
+.food {
+    position: absolute;
+    background: linear-gradient(270deg, rgb(2, 74, 2), rgb(6, 107, 6), rgb(20, 123, 20));
+    height: 90px;
+    width: 80px;
+    top: -90px;
+}
+
+.food2 {
+    position: absolute;
+    background: linear-gradient(280deg, rgb(236, 144, 159), rgb(228, 129, 145), rgb(195, 83, 102));
+    height: 110px;
+    width: 50px;
+    top: -110px;
+    left: 90px;
+}
+
+.food3 {
+    position: absolute;
+    background: linear-gradient(-75deg, rgb(121, 0, 0), rgb(198, 38, 38), rgb(205, 20, 20));
+    height: 110px;
+    width: 50px;
+    top: -112px;
+    left: 155px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 3px;
+    transform:rotate(-25deg)
+
+}
+
+
+.info-box, .info-box2, .info-box3 {
+    background: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -200px;
+    height: auto;
+    width: 500px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 2px;
+    padding: 20px;
+    transition: .4s ease-in;
+}
+
+.fa-circle-xmark {
+    font-size: 2rem;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 420px;
+    cursor: pointer;
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    margin-right: 80px;
+    top: 220px;
+
+}
+
+.info-box2 {
+    display: none;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 50px;
+
+
+}
+
+.info-box2 .fa-circle-xmark {
+    margin-left: 400px;
+}
+
+.info-box3 {
+    display: none;
+    position: absolute;
+    top: 250px;
+    margin-left: 20px;
+
+}
+
+.info-box3 .fa-circle-xmark {
+    margin-left: 350px;
+}
+
+
+
+.info-boxExp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 2rem;
+    display: inline-flex;
+    color: rgb(46, 46, 46);
+    padding: 3px;
+    margin-top: 5px;
+}
+
+h6 {
+    font-size: 1.5rem;
+    color: rgb(218, 47, 47);
+    padding: 2px;
+    margin: 18px;
+}
+ 
+i {
+    font-size: 1.2rem;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+
+}
+
+.quantity {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 9px;
+    margin-top: 18px;
+
+
+}
+
+.quantityBar {
+    height: 15px;
+    background: rgb(127, 250, 137);
+    color: rgb(52, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.seperator {
+    height: 3px;
+    width: 450px;
+    background: rgb(55, 54, 54);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
