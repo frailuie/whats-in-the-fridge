@@ -151,7 +151,7 @@ body {
 .info-box2 {
     display: none;
     position: absolute;
-    margin-top: 480px;
+    margin-top: 700px;
     margin-left: 50px;
 
 
@@ -192,7 +192,7 @@ h3 {
 }
 
 h6 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: rgb(218, 47, 47);
     padding: 2px;
     margin: 18px;
