@@ -39,6 +39,7 @@ body {
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
     box-shadow: 0px 3px 20px 2px rgb(164, 164, 164);
+
 }
 
 .freezer-door {
@@ -151,10 +152,8 @@ body {
 .info-box2 {
     display: none;
     position: absolute;
-    margin-top: 700px;
+    margin-top: 1150px;
     margin-left: 50px;
-
-
 }
 
 .info-box2 .fa-circle-xmark {
