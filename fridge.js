@@ -3,27 +3,24 @@ function openPantry(){
     document.querySelector("#pantryModal").style.display = "block";
 }
 
-function closebtn(){
+function closePantry(){
     document.querySelector("#pantryModal").style.display = "none";
-
 }
 
 function openFreezer(){
     document.querySelector("#freezerModal").style.display = "block";
 }
 
-function closebtn2(){
+function closeFreezer(){
     document.querySelector("#freezerModal").style.display = "none";
-
 }
 
 function openFridge(){
     document.querySelector("#fridgeModal").style.display = "block";
 }
 
-function closebtn3(){
+function closeFridge(){
     document.querySelector("#fridgeModal").style.display = "none";
-
 }
 
 
