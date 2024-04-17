@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 20px;
+  width: 1000px;
+  height: 644px;
+}
+
+/* papa's name */
+.title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  padding-top: 8px;
+  height: 30px;
+  width: 400px;
+  color: rgb(34, 34, 48);
+  text-shadow: 2px 2px 3px #c6d1d8;
+  font-family: "Pacifico", sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  z-index: 9;
+  letter-spacing: 0.2ch;
+  margin-top: 8px;
+  margin-left: 35%;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  gap: 28px 13px;
+  padding: 20px;
+  height: 650px;
+  width: auto;
+  margin-left: -80px;
+  margin-top: 18px;
+}
+
+.food-category {
+  border: 1px solid rgba(0, 0, 0, 0.161);
+  background-color: white;
+  width: 400px;
+  font-family: "Quicksand", sans-serif;
+  z-index: 1;
+}
+
+/* food category name */
+.category-title,
+.fa-solid {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #c6d1d821;
+  color: #14222f;
+}
+
+.category-title {
+  padding: 5px;
+  margin: 5px;
+}
+
+.fa-solid {
+  font-size: 1.2rem;
+  color: #4d5f6f;
+}
+
+li {
+  list-style: none;
+}
+
+/* item section box */
+.item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  padding: 10px;
+  margin-top: -30px;
+}
+
+/* holding emoji icons */
+.emoji-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2f2e0a;
+  border-radius: 15%;
+  height: 50px;
+  width: 50px;
+  font-size: 1.8rem;
+  margin-right: 10px;
+  margin-top: -10%;
+}
+
+/* name of the food */
+.food-title {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* description of the food */
+.food-desc {
+  margin-top: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* quantity bar background */
+.quantity {
+  background-color: rgba(227, 225, 225, 0.713);
+  width: 100px;
+  margin-top: 10px;
+  border: rgba(0, 0, 0, 0.327) 1px solid;
+}
+
+.food-quantity {
+  display: inline-flex;
+  width: 100px;
+}
+
+.quantityBar {
+  height: 18px;
+  background: #7ffa89eb;
+}
+
+.expDate {
+  color: rgb(61, 61, 63);
+  font-size: 1.09rem;
+  font-family: "Titillium", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02ch;
+  background-color: transparent;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.item-box {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  margin-top: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+}

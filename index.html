@@ -3,224 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>in the fridge?</title>
+    <title>what's in the fridge?</title>
     <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
   </head>
 
   <body>
-    <div class="canvas">
-      <div class="fridge-unit">
-        <div class="freezer" onclick="openFreezer()">
-          <div class="freezer-door"></div>
-        </div>
-        <div class="fridge" onclick="openFridge()">
-          <div class="fridge-door"></div>
-        </div>
-      </div>
-
-      <div class="pantry" onclick="openPantry()">
-        <div class="shelf">
-          <div class="food"></div>
-          <div class="food2"></div>
-          <div class="food3"></div>
-          <div class="food4"></div>
-          <div class="food5"></div>
-        </div>
-      </div>
-
-      <!-- pantry -->
-      <div id="pantryModal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="closePantry()">&times;</span>
-
-          <div>
-            <div class="info-boxExp">
-              <h3 class="item-name">
-                Nature Valley Pretzel Peanut Butter Wafer Bars
-              </h3>
-              <h6 class="expiration-date">
-                <i class="fa-regular fa-clock"></i> 07-07-24
-              </h6>
-            </div>
-
-            <p class="descr">
-              nature valley crispy creamy wafer bars made with real peanut
-              butter
-            </p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">10 bars left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Applesauce</h3>
-              <h6 class="expiration-date">
-                <i class="fa-regular fa-clock"></i> 03-14-25
-              </h6>
-            </div>
-
-            <p class="descr">honeycrisp apple and strawberry</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">12 left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <!-- <div class="info-boxExp">
-              <h3 class="item-name">Keurig Coffee Pods</h3>
-              <h6 class="expiration-date">
-                <i class="fa-regular fa-clock"></i> 10-19-24
-              </h6>
-            </div>
-
-            <p class="descr">
-              dunkin' coffee variety pack & starbucks maple pecan
-            </p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">40 pods left</div>
-            </div>
-            <div class="seperator"></div> -->
+    <div class="title">johnny's food</div>
+    <div class="container">
+      <!-- this is the div holding the food categories -->
+      <div class="category-grid">
+        <div class="food-category bakery">
+          <div class="category-title">
+            bakery <i class="fa-solid fa-cake-candles"></i>
+          </div>
+          <div class="item-info">
+            <ul class="bakery-items"></ul>
           </div>
         </div>
-      </div>
 
-      <!-- freezer -->
-      <div id="freezerModal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="closeFreezer()">&times;</span>
-          <div>
-            <!-- <div class="info-boxExp">
-              <h3 class="item-name">Philly Cheesesteak Rolls</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">philly cheesesteak spring rolls</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 50%">4 left</div>
-            </div>
-            <div class="seperator"></div> -->
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Jalapeno Poppers</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">tgi fridays jalapeno poppers</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">15 left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Jimmy Dean Stuffed Hash Browns</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">meat lovers hash browns</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 30%">2 left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Ice Cream</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">
-              godiva pecan caramel cluster ice cream and noosa sea salt caramel
-              frozen yogurt
-            </p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 90%">2 pints left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Hash Browns</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">hash browns</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 60%">1.5 bags left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">Chicken Sandwich</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">tyson spicy chicken (large)</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 90%">7 left</div>
-            </div>
-            <div class="seperator"></div>
-
-            <div class="info-boxExp">
-              <h3 class="item-name">this one is brokeh</h3>
-              <h6 class="expiration-date" style="color: #84c8e8">
-                <i class="fa-regular fa-clock"></i> FROZEN
-              </h6>
-            </div>
-
-            <p class="descr">brokem</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">10 left</div>
-            </div>
-            <div class="seperator"></div>
+        <div class="food-category deli">
+          <div class="category-title">
+            deli <i class="fa-solid fa-bread-slice"></i>
+          </div>
+          <div class="item-info">
+            <ul class="deli-items"></ul>
           </div>
         </div>
-      </div>
 
-      <!-- fridge -->
-      <div id="fridgeModal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="closeFridge()">&times;</span>
-          <div>
-            <div class="info-boxExp">
-              <h3 class="item-name">Fruit</h3>
-              <h6 class="expiration-date" style="color: #ec9563">
-                <i class="fa-regular fa-clock"></i> EAT SOON
-              </h6>
-            </div>
+        <div class="food-category produce">
+          <div class="category-title">
+            produce <i class="fa-solid fa-apple-whole"></i>
+          </div>
+          <div class="item-info">
+            <ul class="produce-items"></ul>
+          </div>
+        </div>
 
-            <p class="descr">cantaloupe, watermelon, grapes, and apples</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 100%">a lot of fruit</div>
-            </div>
-            <div class="seperator"></div>
+        <div class="food-category beverages">
+          <div class="category-title">
+            beverages <i class="fa-solid fa-mug-saucer"></i>
+          </div>
+          <div class="item-info">
+            <ul class="beverages-items"></ul>
+          </div>
+        </div>
 
-            <!-- <div class="info-boxExp">
-              <h3 class="item-name">Crab Dip</h3>
-              <h6 class="expiration-date" style="color: #ec9563">
-                <i class="fa-regular fa-clock"></i> 04-15-24
-              </h6>
-            </div>
+        <div class="food-category snacks">
+          <div class="category-title">
+            snacks <i class="fa-solid fa-cookie-bite"></i>
+          </div>
+          <div class="item-info">
+            <ul class="snacks-items"></ul>
+          </div>
+        </div>
 
-            <p class="descr">inland crab dip</p>
-            <div class="quantity">
-              <div class="quantityBar" style="width: 0%">eaten all of it!</div>
-            </div> -->
-            <div class="seperator"></div>
+        <div class="food-category condiments">
+          <div class="category-title">
+            condiments <i class="fa-solid fa-jar"></i>
+          </div>
+          <div class="item-info">
+            <ul class="condiments-items"></ul>
+          </div>
+        </div>
+
+        <div class="food-category frozenFoods">
+          <div class="category-title">
+            frozen foods <i class="fa-solid fa-burger"></i>
+          </div>
+          <div class="item-info">
+            <ul class="frozenFoods-items"></ul>
+          </div>
+        </div>
+
+        <div class="food-category iceCream">
+          <div class="category-title">
+            ice cream <i class="fa-solid fa-ice-cream"></i>
+          </div>
+          <div class="item-info">
+            <ul class="iceCream-items"></ul>
           </div>
         </div>
       </div>
