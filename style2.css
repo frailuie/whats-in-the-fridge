@@ -137,8 +137,25 @@ li {
   font-weight: 600;
   letter-spacing: 0.02ch;
   background-color: transparent;
+  margin-top: -2px;
   margin-left: 120px;
   position: absolute;
+}
+
+.moveAround {
+  animation: move 0.8s ease infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .item-box {

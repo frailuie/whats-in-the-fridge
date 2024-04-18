@@ -234,23 +234,31 @@ function addToDom(category) {
 
     if (foodItem.expirationDate === "FROZEN") {
       itemExpText.style.color = "#3878b5"; // change text blue
+      itemExpText.style.fontWeight = "500";
     } else if (
       (checkExpiration(itemExpiration) <= 7 &&
         checkExpiration(itemExpiration) >= 0) ||
       foodItem.expirationDate === "EAT SOON"
     ) {
       itemExpText.style.color = "#ef8f28"; // change text orange
-      itemExpText.style.fontWeight = "bold";
+      itemExpText.style.fontWeight = "800";
     } else if (checkExpiration(itemExpiration) < 0) {
       itemExpText.style.color = "#ef2c28"; // change text red
-      itemExpText.style.fontWeight = "bold";
+      itemExpText.style.fontWeight = "800";
     }
 
     // changing the color of the fill bar
     const quantityFill = newItem.querySelector(".quantityBar");
 
     if (percentBar(category, i) <= 50) {
-      quantityFill.style.backgroundColor = "#e54e50";
+      quantityFill.style.backgroundColor = "#e5974e"; // orange
+    }
+
+    if (percentBar(category, i) <= 20) {
+      quantityFill.style.backgroundColor = "#e54e50"; // red
+      itemExpText.textContent = "RUNNING LOW";
+      itemExpText.style.color = "#e52d30";
+      itemExpText.classList.add("moveAround");
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
 
