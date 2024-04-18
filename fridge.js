@@ -58,8 +58,8 @@ const food = {
       item: "grapes",
       emoji: "🍇",
       desc: "cotton candy grapes",
-      quantity: 100,
-      left: 20,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
   ],
@@ -264,8 +264,19 @@ function addToDom(category) {
 
     if (foodItem.quantity === 0) {
       document.querySelector(`.${category} .item-info`).removeChild(newItem);
-      document.querySelector(`.${category}`).style.display = "none"; // if category is empty, remove it
-      return;
+
+      // looping through all items' quantities to check if a category is empty
+      let isEmpty = true;
+
+      for (let i = 0; i < food[category].length; i++) {
+        if (food[category][i].quantity > 0) {
+          isEmpty = false;
+        }
+      }
+
+      if (isEmpty) {
+        document.querySelector(`.${category}`).style.display = "none"; // if it is, don't display it
+      }
     }
   }
 }
