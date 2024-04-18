@@ -55,6 +55,14 @@ const food = {
       expirationDate: "EAT SOON",
     },
     {
+      item: "watermelon",
+      emoji: "🍉",
+      desc: "watermelon chunks",
+      quantity: 10,
+      left: 5,
+      expirationDate: "EAT SOON",
+    },
+    {
       item: "grapes",
       emoji: "🍇",
       desc: "cotton candy grapes",
@@ -263,19 +271,19 @@ function addToDom(category) {
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
 
     if (foodItem.quantity === 0) {
-      document.querySelector(`.${category} .item-info`).removeChild(newItem);
+      document.querySelector(`.${category} .item-info`).removeChild(newItem); // if item's quantity is 0, take it out
 
       // looping through all items' quantities to check if a category is empty
       let isEmpty = true;
 
       for (let i = 0; i < food[category].length; i++) {
         if (food[category][i].quantity > 0) {
-          isEmpty = false;
+          isEmpty = false; // if quantity is greater than 0, it's not empty
         }
       }
 
       if (isEmpty) {
-        document.querySelector(`.${category}`).style.display = "none"; // if it is, don't display it
+        document.querySelector(`.${category}`).style.display = "none"; // if it is 0, don't display it
       }
     }
   }
