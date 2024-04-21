@@ -43,7 +43,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of cantaloupe from publix",
       quantity: 10,
-      left: 8,
+      left: 5,
       expirationDate: "EAT SOON",
     },
     {
@@ -51,7 +51,7 @@ const food = {
       emoji: "🍎",
       desc: "cosmic crisp apples",
       quantity: 3,
-      left: 3,
+      left: 2,
       expirationDate: "EAT SOON",
     },
     {
@@ -59,7 +59,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 5,
+      left: 3,
       expirationDate: "EAT SOON",
     },
     {
@@ -163,7 +163,7 @@ const food = {
       emoji: "🥔",
       desc: "jimmy dean stuffed hash browns meat lovers",
       quantity: 4,
-      left: 2,
+      left: 1,
       expirationDate: "FROZEN",
     },
     {
