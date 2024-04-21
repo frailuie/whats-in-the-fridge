@@ -43,7 +43,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of cantaloupe from publix",
       quantity: 10,
-      left: 5,
+      left: 8,
       expirationDate: "EAT SOON",
     },
     {
@@ -51,7 +51,7 @@ const food = {
       emoji: "🍎",
       desc: "cosmic crisp apples",
       quantity: 3,
-      left: 2,
+      left: 3,
       expirationDate: "EAT SOON",
     },
     {
@@ -59,7 +59,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 3,
+      left: 5,
       expirationDate: "EAT SOON",
     },
     {
@@ -145,9 +145,9 @@ const food = {
     {
       item: "hash browns",
       emoji: "🥔",
-      desc: "publix seasoned diced hash browns",
-      quantity: 1,
-      left: 1,
+      desc: "publix seasoned diced hash browns (1 bag)",
+      quantity: 20,
+      left: 20,
       expirationDate: "FROZEN",
     },
     {
@@ -180,16 +180,16 @@ const food = {
       item: "pecan caramel cluster",
       emoji: "🍨",
       desc: "godiva pecan caramel cluster ice cream (1 pint)",
-      quantity: 1,
-      left: 1,
+      quantity: 10,
+      left: 9,
       expirationDate: "FROZEN",
     },
     {
       item: "noosa sea salt caramel",
       emoji: "🍦",
       desc: "noosa sea salt caramel frozen yogurt (1 pint)",
-      quantity: 1,
-      left: 1,
+      quantity: 10,
+      left: 9,
       expirationDate: "FROZEN",
     },
   ],
@@ -262,7 +262,7 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#e5974e"; // orange
     }
 
-    if (percentBar(category, i) <= 20) {
+    if (percentBar(category, i) <= 20 || foodItem.left <= 2) {
       quantityFill.style.backgroundColor = "#e54e50"; // red
       itemExpText.textContent = "RUNNING LOW";
       itemExpText.style.color = "#e52d30";
