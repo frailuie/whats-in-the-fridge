@@ -298,14 +298,15 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#e54e50"; // red
       itemExpText.textContent = "RUNNING LOW";
       itemExpText.style.color = "#e52d30";
-      itemExpText.style.fontWeight = "700";
+      itemExpText.style.fontWeight = "800";
       itemExpText.classList.add("moveAround");
     }
 
+    // added condition for when there's only one food item
     if (foodItem.left == 1 && foodItem.quantity == 1) {
-      quantityFill.style.backgroundColor = "#4e6ce5"; // blue
-      itemExpText.textContent = "JUST ONE";
-      itemExpText.style.color = "#0d1f68";
+      quantityFill.style.backgroundColor = "#4e9ee5"; // blue
+      itemExpText.textContent = foodItem.expirationDate;
+      itemExpText.style.color = "#3d3d3f";
       itemExpText.classList.remove("moveAround");
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
