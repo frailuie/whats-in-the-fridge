@@ -21,12 +21,12 @@ const food = {
   ],
   deli: [
     {
-      item: "",
-      emoji: "",
+      item: "potato wedges",
+      emoji: "🥔",
       desc: "",
-      quantity: 0,
-      left: "",
-      expirationDate: "",
+      quantity: 10,
+      left: 10,
+      expirationDate: "EAT SOON",
     },
     {
       item: "",
@@ -42,8 +42,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe from publix",
-      quantity: 10,
-      left: 8,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -51,7 +51,7 @@ const food = {
       emoji: "🍎",
       desc: "cosmic crisp apples",
       quantity: 3,
-      left: 3,
+      left: 2,
       expirationDate: "EAT SOON",
     },
     {
@@ -59,7 +59,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 5,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -76,8 +76,8 @@ const food = {
       item: "coffee k-cups",
       emoji: "☕",
       desc: "dunkin & starbucks assorted flavors",
-      quantity: 40,
-      left: 40,
+      quantity: 60,
+      left: 60,
       expirationDate: "2024-10-24",
     },
     {
@@ -85,7 +85,7 @@ const food = {
       emoji: "🥤",
       desc: "dr. pepper strawberries & creme / dr. pepper cream soda",
       quantity: 12,
-      left: 9,
+      left: 8,
       expirationDate: "2024-05-27",
     },
   ],
@@ -105,6 +105,38 @@ const food = {
       quantity: 12,
       left: 12,
       expirationDate: "2025-03-14",
+    },
+    {
+      item: "chobani flip greek yogurt",
+      emoji: "🥣",
+      desc: "strawberry cheesecake",
+      quantity: 1,
+      left: 1,
+      expirationDate: "2024-05-30",
+    },
+    {
+      item: "chobani flip greek yogurt",
+      emoji: "🥣",
+      desc: "coconut caramel cookie",
+      quantity: 1,
+      left: 1,
+      expirationDate: "2024-05-12",
+    },
+    {
+      item: "chobani flip greek yogurt",
+      emoji: "🥣",
+      desc: "key lime crumble",
+      quantity: 1,
+      left: 1,
+      expirationDate: "2024-05-29",
+    },
+    {
+      item: "chobani flip greek yogurt",
+      emoji: "🥣",
+      desc: "salted caramel crunch",
+      quantity: 1,
+      left: 1,
+      expirationDate: "2024-05-22",
     },
   ],
   condiments: [
@@ -129,7 +161,7 @@ const food = {
       emoji: "🥢",
       desc: "duck sauce",
       quantity: 10,
-      left: 10,
+      left: 9,
       expirationDate: "2026-06-07",
     },
     {
@@ -155,7 +187,7 @@ const food = {
       emoji: "🌶️",
       desc: "tgi fridays jalapeno poppers",
       quantity: 15,
-      left: 15,
+      left: 12,
       expirationDate: "FROZEN",
     },
     {
@@ -266,7 +298,15 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#e54e50"; // red
       itemExpText.textContent = "RUNNING LOW";
       itemExpText.style.color = "#e52d30";
+      itemExpText.style.fontWeight = "700";
       itemExpText.classList.add("moveAround");
+    }
+
+    if (foodItem.left == 1 && foodItem.quantity == 1) {
+      quantityFill.style.backgroundColor = "#4e6ce5"; // blue
+      itemExpText.textContent = "JUST ONE";
+      itemExpText.style.color = "#0d1f68";
+      itemExpText.classList.remove("moveAround");
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
 
