@@ -294,7 +294,7 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#e5974e"; // orange
     }
 
-    if (percentBar(category, i) <= 20 || foodItem.left <= 2) {
+    if (percentBar(category, i) <= 20 || foodItem.left <= 1) {
       quantityFill.style.backgroundColor = "#e54e50"; // red
       itemExpText.textContent = "RUNNING LOW";
       itemExpText.style.color = "#e52d30";
@@ -307,6 +307,7 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#4e9ee5"; // blue
       itemExpText.textContent = foodItem.expirationDate;
       itemExpText.style.color = "#3d3d3f";
+       itemExpText.style.fontWeight = "300";
       itemExpText.classList.remove("moveAround");
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
