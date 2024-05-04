@@ -126,8 +126,8 @@ const food = {
       item: "chobani flip greek yogurt",
       emoji: "🥣",
       desc: "key lime crumble",
-      quantity: 1,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "2024-05-29",
     },
     {
