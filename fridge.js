@@ -85,7 +85,7 @@ const food = {
       item: "coffee k-cups",
       emoji: "☕",
       desc: "dunkin & starbucks assorted flavors",
-      quantity: 92,
+      quantity: 60,
       left: 40,
       expirationDate: "2024-10-24",
     },
