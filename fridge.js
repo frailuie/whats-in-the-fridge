@@ -238,7 +238,7 @@ const food = {
       emoji: "❄️",
       desc: "yasso pistachio brittle",
       quantity: 4,
-      left: 3,
+      left: 2,
       expirationDate: "FROZEN",
     },
   ],
