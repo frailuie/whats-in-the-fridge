@@ -86,7 +86,7 @@ const food = {
       emoji: "☕",
       desc: "dunkin & starbucks assorted flavors",
       quantity: 72,
-      left: 42,
+      left: 26,
       expirationDate: "2024-10-24",
     },
     {
@@ -94,7 +94,7 @@ const food = {
       emoji: "🥤",
       desc: "ra&w root beer and canada dry ginger ale",
       quantity: 32,
-      left: 21,
+      left: 16,
       expirationDate: "2024-08-31",
     },
   ],
@@ -215,6 +215,24 @@ const food = {
       left: 6,
       expirationDate: "FROZEN",
     },
+
+    {
+      item: "stuffed scallops",
+      emoji: "🐟",
+      desc: "large scallops",
+      quantity: 6,
+      left: 6,
+      expirationDate: "FROZEN",
+    },
+
+    {
+      item: "stuffed clams",
+      emoji: "🐟",
+      desc: "large clams",
+      quantity: 6,
+      left: 6,
+      expirationDate: "FROZEN",
+    },
   ],
   iceCream: [
     {
@@ -238,7 +256,7 @@ const food = {
       emoji: "❄️",
       desc: "yasso pistachio brittle",
       quantity: 4,
-      left: 2,
+      left: 1,
       expirationDate: "FROZEN",
     },
   ],
