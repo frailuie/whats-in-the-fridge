@@ -24,8 +24,8 @@ const food = {
       item: "potato wedges",
       emoji: "🥔",
       desc: "",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -86,7 +86,7 @@ const food = {
       emoji: "☕",
       desc: "dunkin & starbucks assorted flavors",
       quantity: 72,
-      left: 23,
+      left: 21,
       expirationDate: "2024-10-24",
     },
     {
@@ -94,7 +94,7 @@ const food = {
       emoji: "🥤",
       desc: "ra&w root beer and canada dry ginger ale",
       quantity: 32,
-      left: 11,
+      left: 10,
       expirationDate: "2024-08-31",
     },
   ],
@@ -221,7 +221,7 @@ const food = {
       emoji: "🐟",
       desc: "large scallops",
       quantity: 6,
-      left: 6,
+      left: 2,
       expirationDate: "FROZEN",
     },
 
