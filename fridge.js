@@ -233,6 +233,15 @@ const food = {
       left: 6,
       expirationDate: "FROZEN",
     },
+
+     {
+      item: "donuts",
+      emoji: "🍩",
+      desc: "krispy kreme glazed donuts",
+      quantity: 12,
+      left: 12,
+      expirationDate: "FROZEN",
+    },
   ],
   iceCream: [
     {
