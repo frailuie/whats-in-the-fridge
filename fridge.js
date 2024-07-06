@@ -76,7 +76,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 5,
       expirationDate: "EAT SOON",
     },
       {
@@ -84,7 +84,7 @@ const food = {
       emoji: "🥭",
       desc: "mangoes",
       quantity: 3,
-      left: 3,
+      left: 1,
       expirationDate: "EAT SOON",
     },
     {
@@ -102,7 +102,7 @@ const food = {
       emoji: "☕",
       desc: "dunkin & starbucks",
       quantity: 20,
-      left: 19,
+      left: 15,
       expirationDate: "2024-10-24",
     },
     {
@@ -110,7 +110,7 @@ const food = {
       emoji: "🥤",
       desc: "a&w root beer and sunkist orange",
       quantity: 17,
-      left: 16,
+      left: 11,
       expirationDate: "2024-08-31",
     },
   ],
