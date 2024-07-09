@@ -51,7 +51,7 @@ const food = {
       desc: "mrs. peters blue crab dip",
       quantity: 1,
       left: 1,
-      expirationDate: "2024-05-19",
+      expirationDate: "2024-08-09",
     },
   ],
   produce: [
@@ -67,8 +67,8 @@ const food = {
       item: "apples",
       emoji: "🍎",
       desc: "cosmic crisp apples",
-      quantity: 2,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
