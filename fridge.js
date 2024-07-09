@@ -79,7 +79,7 @@ const food = {
       left: 10,
       expirationDate: "EAT SOON",
     },
-      {
+    {
       item: "mango",
       emoji: "🥭",
       desc: "mangoes",
@@ -163,7 +163,7 @@ const food = {
       left: 1,
       expirationDate: "2024-07-13",
     },
-      {
+    {
       item: "chobani flip greek yogurt",
       emoji: "🥣",
       desc: "boston cream pie",
@@ -267,7 +267,7 @@ const food = {
       expirationDate: "FROZEN",
     },
 
-     {
+    {
       item: "donuts",
       emoji: "🍩",
       desc: "krispy kreme glazed donuts",
@@ -293,7 +293,7 @@ const food = {
       left: 9,
       expirationDate: "FROZEN",
     },
-     {
+    {
       item: "yasso greek yogurt bar",
       emoji: "❄️",
       desc: "yasso pistachio brittle",
@@ -351,7 +351,7 @@ function addToDom(category) {
 
     if (foodItem.expirationDate === "FROZEN") {
       itemExpText.style.color = "#3878b5"; // change text blue
-      itemExpText.style.fontWeight = "500";
+      itemExpText.style.fontWeight = "700";
     } else if (
       (checkExpiration(itemExpiration) <= 7 &&
         checkExpiration(itemExpiration) >= 0) ||
@@ -384,8 +384,13 @@ function addToDom(category) {
       quantityFill.style.backgroundColor = "#4e9ee5"; // blue
       itemExpText.textContent = foodItem.expirationDate;
       itemExpText.style.color = "#3d3d3f";
-       itemExpText.style.fontWeight = "300";
+      itemExpText.style.fontWeight = "600";
       itemExpText.classList.remove("moveAround");
+
+      if (checkExpiration(itemExpiration) <= 7) {
+        itemExpText.style.color = "#ef2c28";
+        itemExpText.style.fontWeight = "800";
+      }
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
 
