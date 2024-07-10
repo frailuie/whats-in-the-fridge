@@ -388,8 +388,10 @@ function addToDom(category) {
       itemExpText.classList.remove("moveAround");
 
       if (checkExpiration(itemExpiration) <= 7) {
-        itemExpText.style.color = "#ef2c28";
+        itemExpText.style.color = "#ef8f28"; // orange
         itemExpText.style.fontWeight = "800";
+      } else if (checkExpiration(itemExpiration) < 0) {
+        itemExpText.style.color = "#ef2c28"; // red
       }
     }
     document.querySelector(`.${category} .item-info`).appendChild(newItem);
