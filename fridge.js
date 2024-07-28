@@ -92,8 +92,8 @@ const food = {
       item: "mango",
       emoji: "🥭",
       desc: "mangoes",
-      quantity: 1,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -111,7 +111,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks hazelnut, gevalia caramel macchiato, dunkin french vanilla",
       quantity: 28,
-      left: 13,
+      left: 10,
       expirationDate: "2024-10-24",
     },
     {
@@ -119,7 +119,7 @@ const food = {
       emoji: "🥤",
       desc: "a&w root beer and sunkist orange",
       quantity: 20,
-      left: 9,
+      left: 5,
       expirationDate: "2024-08-31",
     },
   ],
@@ -160,8 +160,8 @@ const food = {
       item: "chobani flip greek yogurt",
       emoji: "🥣",
       desc: "key lime crumble",
-      quantity: 1,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "2024-07-24",
     },
     {
@@ -237,7 +237,7 @@ const food = {
       emoji: "🐔",
       desc: "chicken nuggets filled with jalapeno and cheese",
       quantity: 18,
-      left: 14,
+      left: 10,
       expirationDate: "FROZEN",
     },
     {
@@ -253,7 +253,7 @@ const food = {
       emoji: "🐔",
       desc: "tyson chicken sandwiches (large)",
       quantity: 8,
-      left: 5,
+      left: 4,
       expirationDate: "FROZEN",
     },
 
@@ -280,7 +280,7 @@ const food = {
       emoji: "🐟",
       desc: "large clams",
       quantity: 6,
-      left: 6,
+      left: 1,
       expirationDate: "FROZEN",
     },
 
