@@ -3,14 +3,6 @@
 const food = {
   bakery: [
     {
-      item: "",
-      emoji: "",
-      desc: "",
-      quantity: 0,
-      left: "",
-      expirationDate: "",
-    },
-    {
       item: "apple fritter",
       emoji: "🍩",
       desc: "publix apple fritter donuts",
@@ -92,16 +84,16 @@ const food = {
       item: "mango",
       emoji: "🥭",
       desc: "mangoes",
-      quantity: 0,
-      left: 0,
+      quantity: 2,
+      left: 2,
       expirationDate: "EAT SOON",
     },
     {
       item: "grapes",
       emoji: "🍇",
       desc: "cotton candy grapes",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
   ],
@@ -111,7 +103,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks hazelnut, gevalia caramel macchiato, dunkin french vanilla",
       quantity: 28,
-      left: 10,
+      left: 30,
       expirationDate: "2024-10-24",
     },
     {
@@ -119,7 +111,7 @@ const food = {
       emoji: "🥤",
       desc: "a&w root beer and sunkist orange",
       quantity: 20,
-      left: 5,
+      left: 21,
       expirationDate: "2024-08-31",
     },
   ],
@@ -271,7 +263,7 @@ const food = {
       emoji: "🥞",
       desc: "jimmy dean pancake sandwiches with sausage and cheese",
       quantity: 4,
-      left: 3,
+      left: 2,
       expirationDate: "FROZEN",
     },
 
@@ -290,6 +282,15 @@ const food = {
       desc: "krispy kreme glazed donuts",
       quantity: 0,
       left: 0,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "philly cheesesteak spring rolls",
+      emoji: "🥩",
+      desc: "publix premium philly cheesesteak spring rolls",
+      quantity: 8,
+      left: 8,
       expirationDate: "FROZEN",
     },
   ],
