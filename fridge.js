@@ -104,7 +104,7 @@ const food = {
       desc: "starbucks hazelnut, gevalia caramel macchiato, dunkin french vanilla",
       quantity: 34,
       left: 34,
-      expirationDate: "2024-10-24",
+      expirationDate: "2025-01-25",
     },
     {
       item: "soda",
@@ -112,7 +112,7 @@ const food = {
       desc: "a&w root beer and sunkist orange",
       quantity: 20,
       left: 14,
-      expirationDate: "2024-08-31",
+      expirationDate: "2024-11-22",
     },
   ],
   snacks: [
