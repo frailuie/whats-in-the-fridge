@@ -18,7 +18,7 @@ body {
   padding-top: 8px;
   height: 30px;
   width: 400px;
-  color: rgb(34, 34, 48);
+  color: #222230;
   text-shadow: 2px 2px 3px #c6d1d8;
   font-family: "Pacifico", sans-serif;
   font-weight: 500;
@@ -127,11 +127,23 @@ li {
 
 .quantityBar {
   height: 18px;
+  width: 100px;
+  padding: 5px;
   background: #7ffa89eb;
 }
 
+.quantityShow {
+  font-weight: 900;
+  color: #222230;
+  margin-bottom: -20px;
+  height: 20px;
+  width: 70px;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
 .expDate {
-  color: rgb(61, 61, 63);
+  color: #3d3d3f;
   font-size: 1.09rem;
   font-family: "Titillium", sans-serif;
   font-weight: 600;

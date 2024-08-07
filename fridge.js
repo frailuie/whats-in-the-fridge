@@ -56,7 +56,7 @@ const food = {
       expirationDate: "EAT SOON",
     },
 
-     {
+    {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
@@ -77,7 +77,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 8,
       expirationDate: "EAT SOON",
     },
     {
@@ -92,8 +92,8 @@ const food = {
       item: "grapes",
       emoji: "🍇",
       desc: "cotton candy grapes",
-      quantity: 10,
-      left: 5,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
   ],
@@ -101,9 +101,9 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks hazelnut, gevalia caramel macchiato, dunkin french vanilla",
+      desc: "starbucks creme brulee, lavazza espresso, lavazza classico, dunkin french vanilla",
       quantity: 34,
-      left: 34,
+      left: 32,
       expirationDate: "2025-01-25",
     },
     {
@@ -111,7 +111,7 @@ const food = {
       emoji: "🥤",
       desc: "a&w root beer and sunkist orange",
       quantity: 20,
-      left: 14,
+      left: 13,
       expirationDate: "2024-11-22",
     },
   ],
@@ -224,7 +224,7 @@ const food = {
       left: 8,
       expirationDate: "FROZEN",
     },
-       {
+    {
       item: "jalapeno chicken nuggets",
       emoji: "🐔",
       desc: "chicken nuggets filled with jalapeno and cheese",
@@ -285,7 +285,7 @@ const food = {
       expirationDate: "FROZEN",
     },
 
-     {
+    {
       item: "philly cheesesteak spring rolls",
       emoji: "🥩",
       desc: "publix premium philly cheesesteak spring rolls",
@@ -371,6 +371,9 @@ function addToDom(category) {
   </div>
   <div class="separator"></div>`;
 
+    // displaying info
+    let isAmountVisible = false;
+
     // check when food will expire
     const itemExpiration = new Date(foodItem.expirationDate);
     const itemExpText = newItem.querySelector(".expDate");
@@ -392,6 +395,16 @@ function addToDom(category) {
 
     // changing the color of the fill bar
     const quantityFill = newItem.querySelector(".quantityBar");
+
+    // when quantity bar is clicked, display whats left amount
+    quantityFill.addEventListener("click", function () {
+      if (isAmountVisible) {
+        quantityFill.innerHTML = ""; // remove text
+      } else {
+        quantityFill.innerHTML = `<div class="quantityShow">${foodItem.left} left</div>`;
+      }
+      isAmountVisible = !isAmountVisible;
+    });
 
     if (percentBar(category, i) <= 50) {
       quantityFill.style.backgroundColor = "#e5974e"; // orange
