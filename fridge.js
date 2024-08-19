@@ -109,7 +109,7 @@ const food = {
     {
       item: "soda",
       emoji: "🥤",
-      desc: "a&w root beer and sunkist orange",
+      desc: "canada dry ginger ale",
       quantity: 17,
       left: 17,
       expirationDate: "2024-11-19",
