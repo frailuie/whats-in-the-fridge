@@ -88,6 +88,14 @@ const food = {
       left: 2,
       expirationDate: "EAT SOON",
     },
+     {
+      item: "peaches",
+      emoji: "🍑",
+      desc: "white flesh peaches",
+      quantity: 3,
+      left: 3,
+      expirationDate: "EAT SOON",
+    },
     {
       item: "grapes",
       emoji: "🍇",
