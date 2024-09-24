@@ -61,7 +61,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of honeydew from publix",
       quantity: 10,
-      left: 10,
+      left: 6,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,7 +77,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 7,
       expirationDate: "EAT SOON",
     },
     {
@@ -208,8 +208,8 @@ const food = {
       item: "chobani creations greek yogurt",
       emoji: "🥣",
       desc: "banana's foster",
-      quantity: 1,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "2024-10-01",
     },
       {
