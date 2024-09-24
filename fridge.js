@@ -60,8 +60,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -76,8 +76,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -100,8 +100,8 @@ const food = {
       item: "grapes",
       emoji: "🍇",
       desc: "cotton candy grapes",
-      quantity: 50,
-      left: 35,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
   ],
@@ -111,7 +111,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks creme brulee, lavazza espresso, lavazza classico, dunkin french vanilla",
       quantity: 39,
-      left: 35,
+      left: 32,
       expirationDate: "2025-01-25",
     },
     {
@@ -119,7 +119,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 27,
-      left: 23,
+      left: 19,
       expirationDate: "2024-11-19",
     },
      {
@@ -317,7 +317,7 @@ const food = {
       emoji: "🍔",
       desc: "white castle cheeseburgers",
       quantity: 6,
-      left: 4,
+      left: 2,
       expirationDate: "FROZEN",
     },
 
@@ -414,7 +414,7 @@ const food = {
       emoji: "❄️",
       desc: "vanilla chocolate crunch",
       quantity: 4,
-      left: 2,
+      left: 1,
       expirationDate: "FROZEN",
     },
 
