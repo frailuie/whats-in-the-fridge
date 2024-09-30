@@ -76,8 +76,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -111,7 +111,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks creme brulee, lavazza espresso, lavazza classico, dunkin french vanilla",
       quantity: 39,
-      left: 29,
+      left: 26,
       expirationDate: "2025-01-25",
     },
     {
@@ -147,6 +147,14 @@ const food = {
       quantity: 12,
       left: 12,
       expirationDate: "2025-03-14",
+    },
+    {
+      item: "mango peach fruit leather",
+      emoji: "🥭🍑",
+      desc: "welch's fruitfuls mango peach fruit leather",
+      quantity: 10,
+      left: 10,
+      expirationDate: "2025-07-27",
     },
     {
       item: "chobani flip greek yogurt",
@@ -391,6 +399,14 @@ const food = {
       desc: "godiva pecan caramel cluster ice cream (1 pint)",
       quantity: 0,
       left: 0,
+      expirationDate: "FROZEN",
+    },
+    {
+      item: "pralines and cream",
+      emoji: "🍨",
+      desc: "baskin robbins pralines and cream (1 pint)",
+      quantity: 4,
+      left: 4,
       expirationDate: "FROZEN",
     },
     {
