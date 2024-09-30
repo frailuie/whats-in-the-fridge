@@ -569,6 +569,7 @@ function addToDom(category) {
   }
 }
 
+// call functions
 addToDom("bakery");
 addToDom("deli");
 addToDom("produce");
