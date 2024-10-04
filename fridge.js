@@ -77,7 +77,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 5,
       expirationDate: "EAT SOON",
     },
     {
@@ -109,9 +109,9 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks creme brulee, lavazza espresso, lavazza classico, dunkin french vanilla",
+      desc: "starbucks cinnamon dolce, lavazza espresso, dunkin french vanilla, gevalia caramel macchiato",
       quantity: 39,
-      left: 26,
+      left: 29,
       expirationDate: "2025-01-25",
     },
     {
@@ -119,7 +119,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 27,
-      left: 16,
+      left: 11,
       expirationDate: "2024-11-19",
     },
      {
