@@ -280,6 +280,14 @@ const food = {
       left: 0,
       expirationDate: "FROZEN",
     },
+    {
+      item: "angus sliders",
+      emoji: "🍔",
+      desc: "tgi fridays angus sliders w/ onion and cheese",
+      quantity: 4,
+      left: 4,
+      expirationDate: "FROZEN",
+    },
      {
       item: "loaded potato skins",
       emoji: "🥔",
