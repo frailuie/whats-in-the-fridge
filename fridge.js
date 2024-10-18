@@ -52,7 +52,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
       quantity: 10,
-      left: 10,
+      left: 5,
       expirationDate: "EAT SOON",
     },
 
@@ -76,8 +76,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -111,7 +111,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, lavazza espresso, dunkin french vanilla, gevalia caramel macchiato",
       quantity: 39,
-      left: 26,
+      left: 20,
       expirationDate: "2025-01-25",
     },
     {
@@ -119,7 +119,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 27,
-      left: 19,
+      left: 15,
       expirationDate: "2024-11-19",
     },
      {
@@ -135,17 +135,17 @@ const food = {
     {
       item: "nature valley wafer bars",
       emoji: "🥨",
-      desc: "pretzel peanut butter wafer bars",
-      quantity: 0,
-      left: 0,
-      expirationDate: "2024-07-07",
+      desc: "peanut butter chocolate wafer bars",
+      quantity: 10,
+      left: 9,
+      expirationDate: "2025-02-14",
     },
     {
       item: "honeycrisp & strawberry applesauce",
       emoji: "🫙",
       desc: "motts applesauce (2 packs)",
       quantity: 12,
-      left: 12,
+      left: 11,
       expirationDate: "2025-03-14",
     },
     {
