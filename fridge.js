@@ -68,8 +68,8 @@ const food = {
       item: "apples",
       emoji: "🍎",
       desc: "cosmic crisp apples",
-      quantity: 0,
-      left: 0,
+      quantity: 2,
+      left: 2,
       expirationDate: "EAT SOON",
     },
     {
@@ -109,9 +109,9 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks cinnamon dolce, lavazza espresso, dunkin french vanilla, gevalia caramel macchiato",
-      quantity: 39,
-      left: 20,
+      desc: "starbucks cinnamon dolce, dunkin french vanilla, gevalia caramel macchiato, starbucks creme brulee and starbucks maple pecan",
+      quantity: 40,
+      left: 40,
       expirationDate: "2025-01-25",
     },
     {
@@ -121,6 +121,14 @@ const food = {
       quantity: 27,
       left: 15,
       expirationDate: "2024-11-19",
+    },
+    {
+      item: "soda",
+      emoji: "🥤",
+      desc: "a&w root beer and 7up cherry",
+      quantity: 2,
+      left: 2,
+      expirationDate: "2024-12-18",
     },
      {
       item: "starbucks caramel frappucino",
@@ -265,11 +273,11 @@ const food = {
   ],
   frozenFoods: [
     {
-      item: "hash browns",
+      item: "tater tots",
       emoji: "🥔",
-      desc: "publix seasoned diced hash browns (1 bag)",
-      quantity: 0,
-      left: 0,
+      desc: "ore ida extra crispy tater tots (1 bag)",
+      quantity: 100,
+      left: 100,
       expirationDate: "FROZEN",
     },
     {
@@ -397,6 +405,15 @@ const food = {
       desc: "farm rich crispy dill pickle slices",
       quantity: 0,
       left: 0,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "pretzel dogs",
+      emoji: "🌭",
+      desc: "auntie anne's pretzel dogs (beef)",
+      quantity: 4,
+      left: 4,
       expirationDate: "FROZEN",
     },
 
