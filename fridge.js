@@ -111,7 +111,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, dunkin french vanilla, gevalia caramel macchiato, starbucks creme brulee and starbucks maple pecan",
       quantity: 40,
-      left: 40,
+      left: 36,
       expirationDate: "2025-01-25",
     },
     {
@@ -119,13 +119,13 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 27,
-      left: 15,
+      left: 8,
       expirationDate: "2024-11-19",
     },
     {
       item: "soda",
       emoji: "🥤",
-      desc: "a&w root beer and 7up cherry",
+      desc: "a&w root beer and 7up cherry (2 liters)",
       quantity: 2,
       left: 2,
       expirationDate: "2024-12-18",
@@ -349,8 +349,8 @@ const food = {
       item: "white castle burgers",
       emoji: "🍔",
       desc: "white castle jalapeno and cheese burgers",
-      quantity: 6,
-      left: 6,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
@@ -413,7 +413,7 @@ const food = {
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
       quantity: 4,
-      left: 4,
+      left: 1,
       expirationDate: "FROZEN",
     },
 
@@ -440,7 +440,7 @@ const food = {
       emoji: "🍨",
       desc: "baskin robbins pralines and cream (1 pint)",
       quantity: 4,
-      left: 4,
+      left: 3,
       expirationDate: "FROZEN",
     },
     {
