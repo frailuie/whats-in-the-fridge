@@ -10,13 +10,14 @@ const food = {
       left: 0,
       expirationDate: "EAT SOON",
     },
+
     {
-      item: "cookies",
-      emoji: "🍪",
-      desc: "publix banana oatmeal cookies",
-      quantity: 0,
-      left: 0,
-      expirationDate: "EAT SOON",
+      item: "apple strudel",
+      emoji: "🥧",
+      desc: "publix mini apple strudel",
+      quantity: 4,
+      left: 4,
+      expirationDate: "2024-11-08",
     },
   ],
   deli: [
@@ -76,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 20,
-      left: 10,
+      quantity: 15,
+      left: 12,
       expirationDate: "EAT SOON",
     },
     {
@@ -111,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, dunkin french vanilla, gevalia caramel macchiato, starbucks creme brulee and starbucks maple pecan",
       quantity: 40,
-      left: 31,
+      left: 29,
       expirationDate: "2025-01-25",
     },
     {
@@ -119,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 22,
-      left: 17,
+      left: 14,
       expirationDate: "2025-02-05",
     },
     {
@@ -266,18 +267,18 @@ const food = {
     {
       item: "grape jelly",
       emoji: "🍇",
-      desc: "greenwise grape jelly",
-      quantity: 0,
-      left: 0,
-      expirationDate: "2024-05-01",
+      desc: "publix grape jelly",
+      quantity: 10,
+      left: 10,
+      expirationDate: "2025-10-10",
     },
     {
       item: "duck sauce",
       emoji: "🥢",
       desc: "duck sauce",
-      quantity: 0,
-      left: 0,
-      expirationDate: "2026-06-07",
+      quantity: 10,
+      left: 10,
+      expirationDate: "2027-06-06",
     },
     {
       item: "peanut butter",
@@ -294,7 +295,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida extra crispy tater tots (1 bag)",
       quantity: 100,
-      left: 100,
+      left: 90,
       expirationDate: "FROZEN",
     },
     {
@@ -310,7 +311,7 @@ const food = {
       emoji: "🍔",
       desc: "tgi fridays angus sliders w/ onion and cheese",
       quantity: 4,
-      left: 4,
+      left: 2,
       expirationDate: "FROZEN",
     },
      {
@@ -357,8 +358,8 @@ const food = {
       item: "white castle burgers",
       emoji: "🍔",
       desc: "white castle cheeseburgers",
-      quantity: 6,
-      left: 2,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
@@ -500,6 +501,15 @@ const food = {
       desc: "vanilla chocolate crunch",
       quantity: 0,
       left: 0,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "yasso greek yogurt bar",
+      emoji: "❄️",
+      desc: "pistachio brittle",
+      quantity: 4,
+      left: 4,
       expirationDate: "FROZEN",
     },
 
