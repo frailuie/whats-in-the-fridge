@@ -78,7 +78,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 15,
-      left: 12,
+      left: 3,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, dunkin french vanilla, gevalia caramel macchiato, starbucks creme brulee and starbucks maple pecan",
       quantity: 40,
-      left: 29,
+      left: 25,
       expirationDate: "2025-01-25",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale",
       quantity: 22,
-      left: 14,
+      left: 11,
       expirationDate: "2025-02-05",
     },
     {
@@ -128,7 +128,7 @@ const food = {
       emoji: "🥤",
       desc: "a&w root beer and 7up cherry (2 liters)",
       quantity: 2,
-      left: 2,
+      left: 1,
       expirationDate: "2024-12-18",
     },
      {
@@ -194,8 +194,8 @@ const food = {
       item: "chobani flip greek yogurt",
       emoji: "🥣",
       desc: "coconut caramel cookie",
-      quantity: 1,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "2024-11-15",
     },
     {
@@ -277,7 +277,7 @@ const food = {
       emoji: "🥢",
       desc: "duck sauce",
       quantity: 10,
-      left: 10,
+      left: 9,
       expirationDate: "2027-06-06",
     },
     {
@@ -295,7 +295,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida extra crispy tater tots (1 bag)",
       quantity: 100,
-      left: 90,
+      left: 79,
       expirationDate: "FROZEN",
     },
     {
@@ -412,8 +412,8 @@ const food = {
       item: "shrimp tempura",
       emoji: "🍤",
       desc: "seapak tempura shrimp w/ spicy orange sauce",
-      quantity: 8,
-      left: 8,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
