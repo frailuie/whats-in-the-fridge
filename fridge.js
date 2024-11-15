@@ -52,8 +52,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
 
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, dunkin french vanilla, gevalia caramel macchiato, starbucks creme brulee and starbucks maple pecan",
       quantity: 40,
-      left: 23,
+      left: 22,
       expirationDate: "2025-01-25",
     },
     {
@@ -261,7 +261,7 @@ const food = {
       emoji: "🍅",
       desc: "publix ketchup (large)",
       quantity: 10,
-      left: 9,
+      left: 8,
       expirationDate: "2025-08-28",
     },
     {
@@ -295,7 +295,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida extra crispy tater tots (1 bag)",
       quantity: 100,
-      left: 55,
+      left: 30,
       expirationDate: "FROZEN",
     },
     {
@@ -342,7 +342,7 @@ const food = {
       item: "mini chicken nuggets",
       emoji: "🐔",
       desc: "pilgrim's mini chicken nuggets",
-      quantity: 56,
+      quantity: 45,
       left: 56,
       expirationDate: "FROZEN",
     },
