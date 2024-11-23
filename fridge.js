@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, gevalia caramel macchiato, starbucks creme brulee",
       quantity: 32,
-      left: 32,
+      left: 31,
       expirationDate: "2025-01-25",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale and dr. pepper cream soda",
       quantity: 22,
-      left: 22,
+      left: 17,
       expirationDate: "2025-01-27",
     },
     {
@@ -294,8 +294,8 @@ const food = {
       item: "tater tots",
       emoji: "🥔",
       desc: "ore ida extra crispy tater tots (1 bag)",
-      quantity: 100,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
     {
@@ -427,8 +427,8 @@ const food = {
       item: "breaded calamari",
       emoji: "🦑",
       desc: "seapak breaded calamari w/ sauce",
-      quantity: 40,
-      left: 40,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
