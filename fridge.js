@@ -24,7 +24,7 @@ const food = {
     {
       item: "potato wedges",
       emoji: "🥔",
-      desc: "",
+      desc: "publix deli potato wedges",
       quantity: 0,
       left: 0,
       expirationDate: "EAT SOON",
@@ -52,8 +52,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
 
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, gevalia caramel macchiato, starbucks creme brulee",
       quantity: 32,
-      left: 31,
+      left: 24,
       expirationDate: "2025-01-25",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale and dr. pepper cream soda",
       quantity: 22,
-      left: 17,
+      left: 14,
       expirationDate: "2025-01-27",
     },
     {
@@ -299,6 +299,14 @@ const food = {
       expirationDate: "FROZEN",
     },
     {
+      item: "crispy crowns",
+      emoji: "🥔",
+      desc: "ore ida crispy crowns (2 bags)",
+      quantity: 200,
+      left: 200,
+      expirationDate: "FROZEN",
+    },
+    {
       item: "jalapeno poppers",
       emoji: "🌶️",
       desc: "tgi fridays jalapeno poppers",
@@ -310,8 +318,8 @@ const food = {
       item: "angus sliders",
       emoji: "🍔",
       desc: "tgi fridays angus sliders w/ onion and cheese",
-      quantity: 4,
-      left: 2,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
      {
@@ -367,7 +375,7 @@ const food = {
       emoji: "🐷",
       desc: "jimmy dean sausage and cheese english muffin sandwiches",
       quantity: 4,
-      left: 4,
+      left: 3,
       expirationDate: "FROZEN",
     },
     {
@@ -473,7 +481,7 @@ const food = {
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
       quantity: 4,
-      left: 4,
+      left: 3,
       expirationDate: "FROZEN",
     },
 
