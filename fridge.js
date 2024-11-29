@@ -53,7 +53,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
       quantity: 10,
-      left: 10,
+      left: 6,
       expirationDate: "EAT SOON",
     },
 
@@ -78,7 +78,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 5,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks cinnamon dolce, gevalia caramel macchiato, starbucks creme brulee",
       quantity: 32,
-      left: 24,
+      left: 21,
       expirationDate: "2025-01-25",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale and dr. pepper cream soda",
       quantity: 22,
-      left: 14,
+      left: 10,
       expirationDate: "2025-01-27",
     },
     {
@@ -269,7 +269,7 @@ const food = {
       emoji: "🍇",
       desc: "publix grape jelly",
       quantity: 10,
-      left: 10,
+      left: 9,
       expirationDate: "2025-10-10",
     },
     {
