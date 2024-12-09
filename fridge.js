@@ -52,8 +52,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 20,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
 
@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -110,9 +110,9 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks maple pecan, gevalia caramel macchiato, starbucks creme brulee, lavazza espresso",
+      desc: "starbucks maple pecan, gevalia caramel macchiato, lavazza espresso",
       quantity: 45,
-      left: 39,
+      left: 36,
       expirationDate: "2026-04-27",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, dr. pepper cream soda, coca cola, sprite",
       quantity: 35,
-      left: 29,
+      left: 26,
       expirationDate: "2025-01-02",
     },
     {
@@ -303,7 +303,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (1 out of 2 bags)",
       quantity: 100,
-      left: 72,
+      left: 60,
       expirationDate: "FROZEN",
     },
     {
@@ -351,7 +351,7 @@ const food = {
       emoji: "🐔",
       desc: "pilgrim's mini chicken nuggets",
       quantity: 56,
-      left: 45,
+      left: 36,
       expirationDate: "FROZEN",
     },
     {
@@ -435,8 +435,8 @@ const food = {
       item: "breaded calamari",
       emoji: "🦑",
       desc: "seapak breaded calamari w/ sauce",
-      quantity: 0,
-      left: 0,
+      quantity: 25,
+      left: 25,
       expirationDate: "FROZEN",
     },
 
@@ -444,8 +444,8 @@ const food = {
       item: "shrimp tempura",
       emoji: "🍤",
       desc: "seapak tempura shrimp w/ spicy orange sauce",
-      quantity: 0,
-      left: 0,
+      quantity: 8,
+      left: 8,
       expirationDate: "FROZEN",
     },
 
@@ -480,8 +480,8 @@ const food = {
       item: "pretzel dogs",
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
-      quantity: 4,
-      left: 2,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
