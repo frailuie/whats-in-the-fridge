@@ -62,7 +62,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of honeydew from publix",
       quantity: 10,
-      left: 6,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -78,7 +78,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 7,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -110,17 +110,17 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks maple pecan, gevalia caramel macchiato, lavazza espresso",
-      quantity: 45,
-      left: 32,
+      desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
+      quantity: 43,
+      left: 43,
       expirationDate: "2026-04-27",
     },
     {
       item: "soda",
       emoji: "🥤",
-      desc: "canada dry ginger ale, dr. pepper cream soda, coca cola, sprite",
-      quantity: 35,
-      left: 21,
+      desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
+      quantity: 43,
+      left: 43,
       expirationDate: "2025-01-02",
     },
     {
@@ -370,6 +370,14 @@ const food = {
       left: 0,
       expirationDate: "FROZEN",
     },
+       {
+      item: "blueberry pancake & sausage on a stick",
+      emoji: "🥞",
+      desc: "jimmy dean blueberry pancake and sausage on a stick",
+      quantity: 12,
+      left: 12,
+      expirationDate: "FROZEN",
+    },
       {
       item: "sausage & cheese english muffin",
       emoji: "🐷",
@@ -418,7 +426,7 @@ const food = {
       emoji: "🥞",
       desc: "jimmy dean blueberry pancake sandwiches with sausage and cheese",
       quantity: 4,
-      left: 3,
+      left: 1,
       expirationDate: "FROZEN",
     },
 
