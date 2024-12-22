@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 20,
+      left: 20,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 43,
-      left: 40,
+      left: 39,
       expirationDate: "2026-04-27",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
       quantity: 43,
-      left: 23,
+      left: 30,
       expirationDate: "2025-01-02",
     },
     {
@@ -132,12 +132,12 @@ const food = {
       expirationDate: "2024-12-18",
     },
      {
-      item: "starbucks caramel frappucino",
+      item: "starbucks caramel macchiato iced espresso",
       emoji: "☕",
-      desc: "starbucks caramel frappucino bottle",
-      quantity: 0,
-      left: 0,
-      expirationDate: "2024-12-04",
+      desc: "starbucks caramel iced espresso bottle (36 oz)",
+      quantity: 3,
+      left: 3,
+      expirationDate: "2025-04-11",
     },
   ],
   snacks: [
@@ -177,9 +177,9 @@ const food = {
       item: "fage vanilla",
       emoji: "🥣",
       desc: "fage sweet dreamy creamy vanilla cultured cream",
-      quantity: 0,
-      left: 0,
-      expirationDate: "2024-12-09",
+      quantity: 4,
+      left: 4,
+      expirationDate: "2025-01-31",
     },
 
       {
@@ -303,7 +303,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (1 out of 2 bags)",
       quantity: 100,
-      left: 42,
+      left: 30,
       expirationDate: "FROZEN",
     },
     {
@@ -318,8 +318,8 @@ const food = {
       item: "angus sliders",
       emoji: "🍔",
       desc: "tgi fridays angus sliders w/ onion and cheese",
-      quantity: 0,
-      left: 0,
+      quantity: 8,
+      left: 8,
       expirationDate: "FROZEN",
     },
      {
@@ -351,7 +351,7 @@ const food = {
       emoji: "🐔",
       desc: "pilgrim's mini chicken nuggets",
       quantity: 56,
-      left: 36,
+      left: 30,
       expirationDate: "FROZEN",
     },
     {
@@ -453,7 +453,7 @@ const food = {
       emoji: "🍤",
       desc: "seapak tempura shrimp w/ spicy orange sauce",
       quantity: 8,
-      left: 8,
+      left: 4,
       expirationDate: "FROZEN",
     },
 
