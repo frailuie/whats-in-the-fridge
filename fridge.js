@@ -62,7 +62,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of honeydew from publix",
       quantity: 20,
-      left: 20,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -78,7 +78,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 7,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 43,
-      left: 39,
+      left: 38,
       expirationDate: "2026-04-27",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
       quantity: 43,
-      left: 30,
+      left: 20,
       expirationDate: "2025-01-02",
     },
     {
@@ -135,8 +135,8 @@ const food = {
       item: "starbucks caramel macchiato iced espresso",
       emoji: "☕",
       desc: "starbucks caramel iced espresso bottle (36 oz)",
-      quantity: 3,
-      left: 3,
+      quantity: 0,
+      left: 0,
       expirationDate: "2025-04-11",
     },
   ],
@@ -269,7 +269,7 @@ const food = {
       emoji: "🍇",
       desc: "publix grape jelly",
       quantity: 10,
-      left: 8,
+      left: 7,
       expirationDate: "2025-10-10",
     },
     {
