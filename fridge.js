@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 20,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 10,
-      left: 7,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 43,
-      left: 38,
+      left: 30,
       expirationDate: "2026-04-27",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
       quantity: 43,
-      left: 20,
+      left: 17,
       expirationDate: "2025-01-02",
     },
     {
@@ -301,9 +301,9 @@ const food = {
     {
       item: "crispy crowns",
       emoji: "🥔",
-      desc: "ore ida crispy crowns (1 out of 2 bags)",
+      desc: "ore ida crispy crowns (2 out of 2 bags)",
       quantity: 100,
-      left: 30,
+      left: 100,
       expirationDate: "FROZEN",
     },
     {
@@ -350,8 +350,8 @@ const food = {
       item: "mini chicken nuggets",
       emoji: "🐔",
       desc: "pilgrim's mini chicken nuggets",
-      quantity: 56,
-      left: 30,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
     {
@@ -375,7 +375,7 @@ const food = {
       emoji: "🥞",
       desc: "jimmy dean blueberry pancake and sausage on a stick",
       quantity: 12,
-      left: 7,
+      left: 6,
       expirationDate: "FROZEN",
     },
       {
@@ -452,8 +452,8 @@ const food = {
       item: "shrimp tempura",
       emoji: "🍤",
       desc: "seapak tempura shrimp w/ spicy orange sauce",
-      quantity: 8,
-      left: 4,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
