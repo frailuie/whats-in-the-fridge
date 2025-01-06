@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -112,7 +112,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 43,
-      left: 30,
+      left: 34,
       expirationDate: "2026-04-27",
     },
     {
@@ -303,7 +303,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (2 out of 2 bags)",
       quantity: 100,
-      left: 100,
+      left: 80,
       expirationDate: "FROZEN",
     },
     {
@@ -319,7 +319,7 @@ const food = {
       emoji: "🍔",
       desc: "tgi fridays angus sliders w/ onion and cheese",
       quantity: 8,
-      left: 8,
+      left: 6,
       expirationDate: "FROZEN",
     },
      {
@@ -375,7 +375,7 @@ const food = {
       emoji: "🥞",
       desc: "jimmy dean blueberry pancake and sausage on a stick",
       quantity: 12,
-      left: 6,
+      left: 5,
       expirationDate: "FROZEN",
     },
       {
@@ -444,7 +444,7 @@ const food = {
       emoji: "🦑",
       desc: "seapak breaded calamari w/ sauce",
       quantity: 25,
-      left: 25,
+      left: 12,
       expirationDate: "FROZEN",
     },
 
@@ -488,8 +488,8 @@ const food = {
       item: "pretzel dogs",
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
-      quantity: 0,
-      left: 0,
+      quantity: 8,
+      left: 8,
       expirationDate: "FROZEN",
     },
 
