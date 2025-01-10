@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -120,7 +120,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
       quantity: 43,
-      left: 17,
+      left: 14,
       expirationDate: "2025-01-02",
     },
     {
@@ -318,8 +318,8 @@ const food = {
       item: "angus sliders",
       emoji: "🍔",
       desc: "tgi fridays angus sliders w/ onion and cheese",
-      quantity: 8,
-      left: 6,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
      {
