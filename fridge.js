@@ -128,7 +128,7 @@ const food = {
       item: "soda",
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, coca cola, sprite",
-      quantity: 43,
+      quantity: 18,
       left: 18,
       expirationDate: "2025-04-19",
     },
