@@ -61,8 +61,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -77,8 +77,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -97,6 +97,15 @@ const food = {
       left: 0,
       expirationDate: "EAT SOON",
     },
+
+    {
+      item: "nectarines",
+      emoji: "🍑",
+      desc: "nectarines",
+      quantity: 2,
+      left: 2,
+      expirationDate: "EAT SOON",
+    },
     {
       item: "grapes",
       emoji: "🍇",
@@ -110,18 +119,18 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "starbucks maple pecan, gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
+      desc: "gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 43,
-      left: 34,
+      left: 30,
       expirationDate: "2026-04-27",
     },
     {
       item: "soda",
       emoji: "🥤",
-      desc: "canada dry ginger ale, 7up, dr. pepper cream soda, coca cola, sprite",
+      desc: "canada dry ginger ale, 7up, coca cola, sprite",
       quantity: 43,
-      left: 14,
-      expirationDate: "2025-01-02",
+      left: 18,
+      expirationDate: "2025-04-19",
     },
     {
       item: "soda",
@@ -261,7 +270,7 @@ const food = {
       emoji: "🍅",
       desc: "publix ketchup (large)",
       quantity: 10,
-      left: 8,
+      left: 7,
       expirationDate: "2025-08-28",
     },
     {
@@ -303,7 +312,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (2 out of 2 bags)",
       quantity: 100,
-      left: 80,
+      left: 70,
       expirationDate: "FROZEN",
     },
     {
@@ -375,7 +384,7 @@ const food = {
       emoji: "🥞",
       desc: "jimmy dean blueberry pancake and sausage on a stick",
       quantity: 12,
-      left: 5,
+      left: 4,
       expirationDate: "FROZEN",
     },
       {
@@ -425,8 +434,8 @@ const food = {
       item: "griddle sandwiches",
       emoji: "🥞",
       desc: "jimmy dean blueberry pancake sandwiches with sausage and cheese",
-      quantity: 4,
-      left: 1,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
@@ -443,8 +452,8 @@ const food = {
       item: "breaded calamari",
       emoji: "🦑",
       desc: "seapak breaded calamari w/ sauce",
-      quantity: 25,
-      left: 12,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
