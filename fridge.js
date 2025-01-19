@@ -103,7 +103,7 @@ const food = {
       emoji: "🍑",
       desc: "nectarines",
       quantity: 2,
-      left: 2,
+      left: 1,
       expirationDate: "EAT SOON",
     },
     {
@@ -127,7 +127,7 @@ const food = {
     {
       item: "soda",
       emoji: "🥤",
-      desc: "canada dry ginger ale, 7up, coca cola, sprite",
+      desc: "canada dry ginger ale, 7up, sprite",
       quantity: 20,
       left: 20,
       expirationDate: "2025-04-19",
