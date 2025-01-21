@@ -52,8 +52,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
 
@@ -78,7 +78,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 2,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -120,16 +120,16 @@ const food = {
       item: "coffee k-cups",
       emoji: "☕",
       desc: "gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
-      quantity: 43,
-      left: 26,
+      quantity: 35,
+      left: 25,
       expirationDate: "2026-04-27",
     },
     {
       item: "soda",
       emoji: "🥤",
-      desc: "canada dry ginger ale, 7up, sprite",
-      quantity: 20,
-      left: 20,
+      desc: "canada dry ginger ale, 7up, sprite, mountain dew",
+      quantity: 32,
+      left: 32,
       expirationDate: "2025-04-19",
     },
     {
@@ -312,7 +312,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (2 out of 2 bags)",
       quantity: 100,
-      left: 70,
+      left: 55,
       expirationDate: "FROZEN",
     },
     {
@@ -498,7 +498,25 @@ const food = {
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
       quantity: 8,
-      left: 8,
+      left: 7,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "mozzarella sticks",
+      emoji: "🧀",
+      desc: "breaded publix mozzarella sticks",
+      quantity: 27,
+      left: 27,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "checkers fries",
+      emoji: "🍟",
+      desc: "checkers seasoned fries",
+      quantity: 80,
+      left: 80,
       expirationDate: "FROZEN",
     },
 
