@@ -497,8 +497,8 @@ const food = {
       item: "pretzel dogs",
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
-      quantity: 8,
-      left: 7,
+      quantity: 16,
+      left: 15,
       expirationDate: "FROZEN",
     },
 
