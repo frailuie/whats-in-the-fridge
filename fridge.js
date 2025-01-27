@@ -38,6 +38,15 @@ const food = {
       expirationDate: "2024-05-11",
     },
 
+       {
+      item: "bacon cheeseburger dip",
+      emoji: "🍔",
+      desc: "publix deli bacon cheeseburger dip",
+      quantity: 6,
+      left: 6,
+      expirationDate: "2025-02-08",
+    },
+
      {
       item: "jumbo pickle",
       emoji: "🥒",
@@ -52,8 +61,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 10,
-      left: 7,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
 
@@ -61,8 +70,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -78,7 +87,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 7,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -121,7 +130,7 @@ const food = {
       emoji: "☕",
       desc: "gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 35,
-      left: 23,
+      left: 21,
       expirationDate: "2026-04-27",
     },
     {
@@ -129,7 +138,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, sprite, mountain dew",
       quantity: 32,
-      left: 28,
+      left: 27,
       expirationDate: "2025-04-19",
     },
     {
@@ -157,6 +166,15 @@ const food = {
       quantity: 10,
       left: 9,
       expirationDate: "2025-02-14",
+    },
+
+      {
+      item: "oats n' honey granola bars",
+      emoji: "🍯",
+      desc: "nature valley crunchy oats n' honey granola bars",
+      quantity: 24,
+      left: 24,
+      expirationDate: "2025-10-25",
     },
     {
       item: "honeycrisp & strawberry applesauce",
@@ -187,7 +205,7 @@ const food = {
       emoji: "🥣",
       desc: "fage sweet dreamy creamy vanilla cultured cream",
       quantity: 4,
-      left: 3,
+      left: 2,
       expirationDate: "2025-01-31",
     },
 
@@ -263,6 +281,14 @@ const food = {
       left: 0,
       expirationDate: "2024-10-26",
     },
+     {
+      item: "vanilla greek yogurt",
+      emoji: "🥣",
+      desc: "chobani vanilla greek yogurt",
+      quantity: 4,
+      left: 4,
+      expirationDate: "2025-03-14",
+    },
   ],
   condiments: [
     {
@@ -312,7 +338,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns (2 out of 2 bags)",
       quantity: 100,
-      left: 45,
+      left: 30,
       expirationDate: "FROZEN",
     },
     {
@@ -498,7 +524,7 @@ const food = {
       emoji: "🌭",
       desc: "auntie anne's pretzel dogs (beef)",
       quantity: 16,
-      left: 15,
+      left: 10,
       expirationDate: "FROZEN",
     },
 
@@ -507,7 +533,7 @@ const food = {
       emoji: "🧀",
       desc: "breaded publix mozzarella sticks",
       quantity: 27,
-      left: 27,
+      left: 23,
       expirationDate: "FROZEN",
     },
 
@@ -516,7 +542,7 @@ const food = {
       emoji: "🍟",
       desc: "checkers seasoned fries",
       quantity: 80,
-      left: 70,
+      left: 60,
       expirationDate: "FROZEN",
     },
 
