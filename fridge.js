@@ -70,8 +70,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 10,
-      left: 10,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -87,7 +87,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 4,
       expirationDate: "EAT SOON",
     },
     {
@@ -130,7 +130,7 @@ const food = {
       emoji: "☕",
       desc: "gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
       quantity: 35,
-      left: 21,
+      left: 18,
       expirationDate: "2026-04-27",
     },
     {
@@ -138,7 +138,7 @@ const food = {
       emoji: "🥤",
       desc: "canada dry ginger ale, 7up, sprite, mountain dew",
       quantity: 32,
-      left: 27,
+      left: 16,
       expirationDate: "2025-04-19",
     },
     {
@@ -204,8 +204,8 @@ const food = {
       item: "fage vanilla",
       emoji: "🥣",
       desc: "fage sweet dreamy creamy vanilla cultured cream",
-      quantity: 4,
-      left: 2,
+      quantity: 0,
+      left: 0,
       expirationDate: "2025-01-31",
     },
 
@@ -286,7 +286,7 @@ const food = {
       emoji: "🥣",
       desc: "chobani vanilla greek yogurt",
       quantity: 4,
-      left: 4,
+      left: 3,
       expirationDate: "2025-03-14",
     },
   ],
