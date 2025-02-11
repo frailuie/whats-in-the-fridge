@@ -42,8 +42,8 @@ const food = {
       item: "bacon cheeseburger dip",
       emoji: "🍔",
       desc: "publix deli bacon cheeseburger dip",
-      quantity: 6,
-      left: 4,
+      quantity: 0,
+      left: 0,
       expirationDate: "2025-02-08",
     },
 
@@ -70,8 +70,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -87,7 +87,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 5,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -128,9 +128,9 @@ const food = {
     {
       item: "coffee k-cups",
       emoji: "☕",
-      desc: "gevalia caramel macchiato, gevalia frothy cappuccino, lavazza espresso",
-      quantity: 35,
-      left: 13,
+      desc: "starbucks toffee nut, gevalia frothy cappuccino, lavazza espresso",
+      quantity: 21,
+      left: 21,
       expirationDate: "2026-04-27",
     },
     {
@@ -138,7 +138,7 @@ const food = {
       emoji: "🥤",
       desc: "7up, mountain dew",
       quantity: 30,
-      left: 21,
+      left: 27,
       expirationDate: "2025-04-19",
     },
     {
@@ -166,6 +166,15 @@ const food = {
       quantity: 10,
       left: 9,
       expirationDate: "2025-02-14",
+    },
+
+     {
+      item: "spicy boiled peanuts",
+      emoji: "🥜",
+      desc: "hardy farms spicy hot boiled peanuts",
+      quantity: 100,
+      left: 50,
+      expirationDate: "EAT SOON",
     },
 
       {
@@ -304,7 +313,7 @@ const food = {
       emoji: "🍇",
       desc: "publix grape jelly",
       quantity: 10,
-      left: 7,
+      left: 5,
       expirationDate: "2025-10-10",
     },
     {
@@ -312,13 +321,13 @@ const food = {
       emoji: "🥢",
       desc: "duck sauce",
       quantity: 10,
-      left: 8,
+      left: 7,
       expirationDate: "2027-06-06",
     },
     {
       item: "peanut butter",
       emoji: "🥜",
-      desc: "peter pan crunchy peanut butter (large)",
+      desc: "peter pan crunchy  butter (large)",
       quantity: 10,
       left: 9,
       expirationDate: "2025-03-30",
@@ -338,7 +347,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns",
       quantity: 100,
-      left: 100,
+      left: 90,
       expirationDate: "FROZEN",
     },
     {
@@ -411,7 +420,7 @@ const food = {
       emoji: "🐷",
       desc: "assembled with publix cheddar herb biscuits and johnsonville sausage",
       quantity: 4,
-      left: 3,
+      left: 2,
       expirationDate: "FROZEN",
     },
        {
@@ -443,7 +452,7 @@ const food = {
       emoji: "🍔",
       desc: "white castle cheeseburgers",
       quantity: 6,
-      left: 6,
+      left: 4,
       expirationDate: "FROZEN",
     },
 
@@ -551,7 +560,7 @@ const food = {
       emoji: "🍟",
       desc: "checkers seasoned fries",
       quantity: 80,
-      left: 60,
+      left: 40,
       expirationDate: "FROZEN",
     },
 
@@ -618,7 +627,7 @@ const food = {
     {
       item: "yasso greek yogurt bar",
       emoji: "❄️",
-      desc: "peanut butter chocolate crunch",
+      desc: " butter chocolate crunch",
       quantity: 0,
       left: 0,
       expirationDate: "FROZEN",
