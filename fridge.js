@@ -61,8 +61,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 0,
-      left: 0,
+      quantity: 10,
+      left: 10,
       expirationDate: "EAT SOON",
     },
 
@@ -70,8 +70,8 @@ const food = {
       item: "honeydew",
       emoji: "🍈",
       desc: "small container of honeydew from publix",
-      quantity: 10,
-      left: 4,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
     {
@@ -87,7 +87,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 6,
+      left: 10,
       expirationDate: "EAT SOON",
     },
     {
@@ -130,15 +130,15 @@ const food = {
       emoji: "☕",
       desc: "starbucks toffee nut, gevalia frothy cappuccino, lavazza espresso",
       quantity: 21,
-      left: 19,
+      left: 18,
       expirationDate: "2026-04-27",
     },
     {
       item: "soda",
       emoji: "🥤",
-      desc: "7up, mountain dew",
-      quantity: 30,
-      left: 23,
+      desc: "7up, mountain dew, dr. pepper cream soda",
+      quantity: 32,
+      left: 32,
       expirationDate: "2025-04-19",
     },
     {
@@ -173,7 +173,7 @@ const food = {
       emoji: "🥜",
       desc: "hardy farms spicy hot boiled peanuts",
       quantity: 100,
-      left: 20,
+      left: 100,
       expirationDate: "EAT SOON",
     },
 
@@ -295,8 +295,8 @@ const food = {
       emoji: "🥣",
       desc: "chobani vanilla greek yogurt",
       quantity: 4,
-      left: 1,
-      expirationDate: "2025-03-14",
+      left: 4,
+      expirationDate: "2025-04-07",
     },
   ],
   condiments: [
@@ -378,8 +378,8 @@ const food = {
       item: "jalapeno chicken nuggets",
       emoji: "🐔",
       desc: "chicken nuggets filled with jalapeno and cheese",
-      quantity: 0,
-      left: 0,
+      quantity: 18,
+      left: 18,
       expirationDate: "FROZEN",
     },
      {
@@ -387,7 +387,7 @@ const food = {
       emoji: "🐔",
       desc: "pilgrim's zesty ranch mini chicken nuggets",
       quantity: 56,
-      left: 38,
+      left: 34,
       expirationDate: "FROZEN",
     },
      {
@@ -420,7 +420,7 @@ const food = {
       emoji: "🐷",
       desc: "assembled with publix cheddar herb biscuits and johnsonville sausage",
       quantity: 4,
-      left: 2,
+      left: 1,
       expirationDate: "FROZEN",
     },
        {
@@ -445,6 +445,15 @@ const food = {
       desc: "tyson chicken sandwiches (large)",
       quantity: 0,
       left: 0,
+      expirationDate: "FROZEN",
+    },
+
+     {
+      item: "white castle double slider burgers",
+      emoji: "🍔",
+      desc: "white castle double slider cheeseburgers",
+      quantity: 4,
+      left: 4,
       expirationDate: "FROZEN",
     },
     {
@@ -502,6 +511,15 @@ const food = {
     },
 
       {
+      item: "coconut shrimp",
+      emoji: "🍤",
+      desc: "red lobster coconut shrimp bites w/ sweet chili sauce",
+      quantity: 18,
+      left: 18,
+      expirationDate: "FROZEN",
+    },
+
+      {
       item: "shrimp tempura",
       emoji: "🍤",
       desc: "seapak tempura shrimp w/ spicy orange sauce",
@@ -551,7 +569,7 @@ const food = {
       emoji: "🧀",
       desc: "breaded publix mozzarella sticks",
       quantity: 27,
-      left: 23,
+      left: 19,
       expirationDate: "FROZEN",
     },
 
