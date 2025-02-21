@@ -62,7 +62,7 @@ const food = {
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
       quantity: 10,
-      left: 10,
+      left: 6,
       expirationDate: "EAT SOON",
     },
 
@@ -87,7 +87,7 @@ const food = {
       emoji: "🍉",
       desc: "watermelon chunks",
       quantity: 10,
-      left: 10,
+      left: 6,
       expirationDate: "EAT SOON",
     },
     {
@@ -130,7 +130,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks toffee nut, gevalia frothy cappuccino, lavazza espresso",
       quantity: 21,
-      left: 18,
+      left: 15,
       expirationDate: "2026-04-27",
     },
     {
@@ -138,7 +138,7 @@ const food = {
       emoji: "🥤",
       desc: "7up, mountain dew, dr. pepper cream soda",
       quantity: 32,
-      left: 32,
+      left: 29,
       expirationDate: "2025-04-19",
     },
     {
@@ -173,8 +173,8 @@ const food = {
       emoji: "🥜",
       desc: "hardy farms spicy hot boiled peanuts",
       quantity: 100,
-      left: 100,
-      expirationDate: "EAT SOON",
+      left: 50,
+      expirationDate: "2025-03-07",
     },
 
       {
@@ -460,8 +460,8 @@ const food = {
       item: "white castle burgers",
       emoji: "🍔",
       desc: "white castle cheeseburgers",
-      quantity: 6,
-      left: 2,
+      quantity: 0,
+      left: 0,
       expirationDate: "FROZEN",
     },
 
