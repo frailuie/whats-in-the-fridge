@@ -11,6 +11,15 @@ const food = {
       expirationDate: "EAT SOON",
     },
 
+      {
+      item: "strawberry cheese strudel",
+      emoji: "🥧",
+      desc: "publix mini strawberry cheese strudel",
+      quantity: 8,
+      left: 8,
+      expirationDate: "EAT SOON",
+    },
+
     {
       item: "apple strudel",
       emoji: "🥧",
@@ -61,8 +70,8 @@ const food = {
       item: "cantaloupe",
       emoji: "🍈",
       desc: "small container of cantaloupe melons",
-      quantity: 10,
-      left: 6,
+      quantity: 0,
+      left: 0,
       expirationDate: "EAT SOON",
     },
 
@@ -86,8 +95,8 @@ const food = {
       item: "watermelon",
       emoji: "🍉",
       desc: "watermelon chunks",
-      quantity: 10,
-      left: 6,
+      quantity: 20,
+      left: 20,
       expirationDate: "EAT SOON",
     },
     {
@@ -115,6 +124,14 @@ const food = {
       left: 0,
       expirationDate: "EAT SOON",
     },
+     {
+      item: "black plum",
+      emoji: "🍎",
+      desc: "black plum",
+      quantity: 1,
+      left: 1,
+      expirationDate: "EAT SOON",
+    },
     {
       item: "grapes",
       emoji: "🍇",
@@ -130,7 +147,7 @@ const food = {
       emoji: "☕",
       desc: "starbucks toffee nut, gevalia frothy cappuccino, lavazza espresso",
       quantity: 21,
-      left: 15,
+      left: 14,
       expirationDate: "2026-04-27",
     },
     {
@@ -138,7 +155,7 @@ const food = {
       emoji: "🥤",
       desc: "7up, mountain dew, dr. pepper cream soda",
       quantity: 32,
-      left: 29,
+      left: 24,
       expirationDate: "2025-04-19",
     },
     {
@@ -173,7 +190,7 @@ const food = {
       emoji: "🥜",
       desc: "hardy farms spicy hot boiled peanuts",
       quantity: 100,
-      left: 50,
+      left: 45,
       expirationDate: "2025-03-07",
     },
 
@@ -347,7 +364,7 @@ const food = {
       emoji: "🥔",
       desc: "ore ida crispy crowns",
       quantity: 100,
-      left: 80,
+      left: 40,
       expirationDate: "FROZEN",
     },
     {
@@ -515,7 +532,7 @@ const food = {
       emoji: "🍤",
       desc: "red lobster coconut shrimp bites w/ sweet chili sauce",
       quantity: 18,
-      left: 18,
+      left: 12,
       expirationDate: "FROZEN",
     },
 
@@ -578,7 +595,16 @@ const food = {
       emoji: "🍟",
       desc: "checkers seasoned fries",
       quantity: 80,
-      left: 40,
+      left: 20,
+      expirationDate: "FROZEN",
+    },
+
+    {
+      item: "crab cakes",
+      emoji: "🦀",
+      desc: "publix maryland style crab cake",
+      quantity: 2,
+      left: 2,
       expirationDate: "FROZEN",
     },
 
